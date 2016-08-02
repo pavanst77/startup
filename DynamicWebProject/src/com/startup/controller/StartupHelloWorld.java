@@ -7,6 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class StartupHelloWorld {
 
+
 	@RequestMapping("/welcome")
 	public ModelAndView helloWorld() {
  
